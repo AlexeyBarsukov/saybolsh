@@ -1,0 +1,1115 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Orpheus';
+    src: url('../fonts/Orpheus-Bold.woff2') format('woff2'),
+        url('../fonts/Orpheus-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+	font-size: 14px;
+    background: #F7F7F7;
+    font-family: 'Roboto Slab', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-head {
+    height: 150px;
+    background: #000;
+    color: #fff;
+}
+
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.navbar-toggle {
+    z-index:3;
+}
+
+.navbar-default {
+    background-color: #000;
+    border-color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffbb00;
+    background-color: transparent;
+}
+
+.navbar-brand > img {
+    display: inline-block;
+    width: 180px;
+}
+
+.header {
+	background-color: #000;
+	background: url(../img/header-bg-2.jpg);
+	background-size: cover;
+	min-height: 650px;
+	background-position: bottom;
+	background-attachment: fixed;
+}
+
+.menu-wrapper {
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    background: #000;
+}
+
+.front-info {
+    background: #353535;
+    padding: 30px 0;
+    color: #eee;
+    text-align: center;
+}
+
+.front-info span {
+    display: block;
+}
+
+.cont-info {
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.cont-info a {
+	color: #fff;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.promo-content {
+    text-align: center;
+    color: #fff;
+    padding-top: 165px;
+}
+
+.w-text {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.barbershop-name h1 {
+    font-family: 'Orpheus';
+    font-size: 70px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.contact-list a, .contact-list span {
+    color: #cf9948;
+    padding: 0 20px;
+}
+
+.contact-list {
+    margin-top: 30px;
+}
+
+.order-wrapper {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+a.order-button, .order-button {
+    background: #006C53;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px 28px;
+    margin-top: 25px;
+    border-radius: 3px;
+    opacity: 0.5;
+
+}
+
+a.order-button:hover, .order-button:hover {
+	text-decoration: none;
+    opacity: 1;
+}
+
+.contacts {
+    background:url(../img/bg.jpg);
+    color: #fff;
+}
+
+.about, .services, .order, .partners, .contacts,.masters, .gallery, .news {
+	padding: 50px 0;
+}
+
+.about {
+	font-size: 20px;
+}
+
+.about p {
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.about-img img {
+    padding: 5px;
+    background: #fff;
+    box-shadow: 2px 3px 5px 2px rgba(217,217,217,1);
+}
+
+.block-title {
+    font-family: 'Orpheus';
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    font-weight: 600;
+} 
+.block-title-request{
+    font-family: 'Orpheus';
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20px 0 30px 0;
+    text-align: start;
+    font-weight: 600;
+}
+
+.info-block {
+    padding: 30px 0;
+}
+
+.block-item {
+    background: #fff;
+    text-align: center;
+}
+
+.block-item p {
+	padding: 10px 0;
+}
+
+.acamedy-block-item, .franchise-block-item {
+	font-size: 18px;
+	text-align: center;
+	padding: 50px 30px;
+}
+
+.acamedy-block-item p, .franchise-block-item p {
+	margin-bottom: 40px;
+}
+
+.info-block .block-title {
+    font-size: 25px;
+    line-height: 28px;
+    min-height: 80px;
+    padding: 10px 0;
+}
+
+.block-item img {
+    display: inline-block;
+}
+
+.block-item a, .franchise-block-item a {
+    background: #555;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px 28px;
+}
+
+.block-item a {
+	width: 100%;
+}
+
+.block-item a:hover, .franchise-block-item a:hover, .acamedy-block-item a:hover {
+	text-decoration: none;
+}
+
+.service-list div {
+    display: block;
+    position: relative;
+    padding-left: 80px;
+}
+
+.service-list div:before {
+    content: "";
+    background: url(../img/icons.png) no-repeat;
+    width: 65px;
+    height: 65px;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+div.game:before {
+    background-position: -65px 0px;
+}
+
+div.tea:before {
+    background-position: -64px -65px;
+}
+
+div.wifi:before {
+    background-position: 0 -65px;
+}
+
+.contact-list a, .contact-list span {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+}
+
+.contact-list a:before, .contact-list span:before {
+    background: url(../img/icons.png) no-repeat;
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.contact-list a.phone:before {
+    background-position: -130px 0px;
+}
+
+.contact-list a.instagram:before {
+    background-position: -130px -34px;
+}
+
+.contact-list span:before {
+    background-position: -130px -68px;
+}
+
+.services, .video {
+    background: #242021;
+    background:url(../img/price.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.service-item {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    padding-left: 100px;
+}
+
+.service-item img {
+	position: absolute;
+	left: 0;
+    top: -10px;
+}
+
+.services h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.services li{
+    display: block;
+    font-size: 18px;
+    border-bottom: 1px dotted #555;
+}
+
+
+.services span{
+    display: block;
+    float: right;
+}
+
+
+.plus-item {
+	text-align: center;
+}
+
+.plus-item span {
+	font-size: 24px;
+	display: block;
+}
+
+
+.gallery {
+}
+
+.row-space {
+	margin-top: 30px;
+}
+
+.masters {
+    background: #FAEBD7;
+        background: url(../img/team.jpg) center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.master {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.master-item {
+	text-align: center;  
+}
+
+.master-item img {
+    border: 5px solid #fff;
+}
+
+.master-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 18px;
+    height: 40px;
+}
+
+.master-item a {
+    color: #fff;
+    font-size: 16px;
+    background: #cf9948;
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* barber school*/
+
+.academy-promo {
+	margin: 50px;
+	text-align: center;
+	color: #fff;
+}
+.inst-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.academy-promo img {
+    display: inline-block;
+    width: 200px;
+    border-radius: 100%;
+
+}
+
+.academy-promo .global-title {
+	font-family: 'Orpheus';
+    font-size: 46px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.barbershop-block {
+    padding-top: 30px;
+    height: 560px;
+    background: #fff;
+}
+
+.academy-img {
+    background: url(../images/academy.jpg) no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.coach-img {
+    /* background: url(../images/coach3.jpg) no-repeat; */
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255 255 255) -23px 17px 0px -3px, rgb(0 0 0) -23px 17px;
+    height: 500px;
+    background-size: cover;
+}
+
+.franchise-block {
+	background: #000;
+	height: 500px;
+}
+
+.franchise-img {
+    background: url(../images/interior1.jpeg) no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.franchise-block-item {
+    color: #fff;
+}
+
+#cf9948
+
+/* Gellery */
+
+.fimage {
+    margin-bottom: 30px;
+}
+
+.fimage img {
+    border: 1px solid #989898;
+    border-radius: 10px;
+    padding: 3px;
+    background: #fff;
+}
+
+.fimage img:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.18);
+}
+
+.form-horizontal {
+    padding: 50px 20px;
+    text-align: center;
+    padding-left: 0;
+}
+
+.form-horizontal p {
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid #bd5700;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    color: #000;
+}
+
+.map {
+	height: 500px;
+	position: relative;
+}
+
+.contact-block {
+	background: #000;
+	position: absolute;
+	left: 200px;
+	top: 50px;
+	z-index: 99;
+	padding: 50px 70px;
+	color: #fff;
+}
+
+.contact-block a {
+	color: #fff;
+	font-size: 20px;
+}
+
+ul.info {
+    margin: 0;
+    padding: 0;
+}
+
+.info li {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 70px;
+    display: block;
+}
+
+
+.info li img {
+	position: absolute;
+	left: 0;
+}
+
+
+/* discounts */
+
+.d-info {
+    padding: 5px 10px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.discounts-title {
+    font-size: 24px;
+    background: #000;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fc0;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+/* News */
+
+
+.news-date {
+    float: left;
+    background: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.day {
+    font-size: 36px;
+    padding: 5px 5px;
+    line-height: 34px;
+}
+
+.news-date span {
+    display: block;
+    font-size: 12px;
+    padding: 0 4px;
+    background: #555;
+    color: #fff;
+    border-bottom: 1px solid #999;
+}
+
+/* review */
+
+.review {
+    background: #eee;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.review a {
+    background: #fff;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+/* Catalog */
+
+.catalog-item {
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.catalog-item:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10)
+}
+
+.catalog-item img {
+    margin-bottom: 10px;
+}
+
+.catalog-title {
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.catalog-price {
+    background: #e5e5e5;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.price-item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10)
+}
+
+.price-item p{
+    color: #999;
+}
+
+.price-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: purple;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.price-price {
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.price-button {
+    background: #FECE0F;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.price-button:hover {
+    background: #ffa600;
+}
+
+.contact-list, .review-button {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.review-button a {
+    color: #fff;
+}
+
+.p-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 90px 40px;
+    background-color: purple;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+}
+
+.info h4 {
+    text-transform: uppercase;
+}
+
+
+.info:hover {
+    opacity: 1;
+}
+
+.info a {
+    color: #fff;
+}
+
+#scrollUp {
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-image: url(../img/back-to-top.png);
+    background-repeat: no-repeat;
+    background-position: 50% 48%;
+    background-color: rgba(35, 35, 35, 0.5);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+
+.contact-item {
+    font-size: 18px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.contact-item a {
+    color: #fff;
+}
+
+.contact-item div {
+    margin-bottom: 20px;
+}
+
+.contact-item div span {
+    display: block;
+    color: #cf9948;
+}
+
+
+/* barber academy */
+
+.academy-about {
+    background: #F7F7F7;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+.academy-promo .order-button {
+    background: #006C53;
+    color: #fff;
+}
+
+.process {
+    background: #303030;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cource-wrapper, .school-footer, .plus {
+	padding: 50px 0;
+}
+
+.cource-wrapper {
+	background: #303030;
+	color: #fff;
+}
+
+.school-footer {
+    background: #303030;
+    height: 500px;
+    color: #fff;
+}
+
+.cource-item {
+    text-align: center;
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.price {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.cource-body {
+    padding: 20px;
+    text-align: left;
+}
+
+.cource-title {
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: #005F4A;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cource-item img {
+    background: #eee;
+    height: 200px;
+    width: 100%;
+}
+
+.cource-item a {
+    background: #005F4A;
+    padding: 5px 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.plus-item img {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background: transparent;
+    border: none;
+}
+
+.plus-item p {
+	font-size: 14px;
+}
+
+.academy-footer {
+    font-size: 20px;
+}
+
+.academy-footer a {
+    color: #eee;
+}
+
+.academy-footer span {
+    color: #cf9948;
+}
+
+.academy-footer ul {
+    padding: 0;
+}
+
+.academy-footer ul li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.webform-client-form {
+    padding: 30px;
+    margin: 70px 30px;
+    background: #d64141;
+}
+
+.form-actions input {
+    background: #fc0;
+    color: #000;
+    border: none;
+}
+
+.element-invisible {
+    display: none;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 992px) {
+a.order-button, .order-button {
+    opacity: 1;
+}
+.cource-item{
+    margin-bottom: 40px;
+}
+
+.academy-about{
+    padding:0;
+}
+
+.coach-img{
+    height: fit-content;
+}
+
+.header {
+	background-attachment: scroll;
+}
+
+.navbar-default .navbar-collapse {
+    position: absolute;
+    z-index: 99;
+    background: #000;
+    width: 100%;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #000;
+}
+
+.navbar-toggle .icon-bar {
+    width: 31px;
+    background-color: #fff;
+}
+
+.xs-row-space {
+	margin-bottom: 30px;
+}
+
+.header {
+    height: 500px;
+}
+
+
+.main-form {
+    margin-top: 0;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.promo-content {
+    padding-top: 100px;
+}
+
+.w-text {
+    font-size: 16px;
+}
+
+.slogan {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about, .services, .order, .partners, .contacts, .masters {
+    padding: 30px 0;
+}
+
+.p-item {
+    margin-bottom: 20px;
+}
+
+.contact-list a, .contact-list span {
+    margin-bottom: 15px;
+}
+
+.block-title {
+    font-size: 30px;
+    padding: 15px 15px;
+    line-height: 30px;
+}
+
+.block-item {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    position: relative;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+    padding-left: 100px;
+}
+
+.services ul {
+    padding: 0;
+}
+
+.acamedy-block-item, .franchise-block-item {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.barbershop-block {
+    height: auto;
+    padding: 20px 0;
+}
+
+.academy-img {
+    background: url(../images/academy.jpg) no-repeat center center;
+    height: 250px;
+    background-size: cover;
+}
+
+.franchise-block {
+    background: #000;
+    height: auto;
+    padding: 20px 0;
+}
+
+.franchise-block-item {
+    padding: 20px 0;
+}
+
+.franchise-img {
+    background: url(../images/interior1.jpeg) no-repeat;
+    height: 240px;
+    background-size: cover;
+}
+
+
+.master {
+    height: 210px;
+}
+
+
+.master img{
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+}
+
+.master-item {
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    min-height: 250px;
+}
+
+.price-item {
+    margin-bottom: 20px;
+}
+
+.spec {
+	font-size: 14px;
+}
+
+.master-name {
+	 font-size: 14px;
+}
+
+.plus-item img {
+    width: 100px;
+}
+
+.plus-item span {
+    font-size: 20px;
+    display: block;
+}
+
+.order {
+	height: auto;
+}
+
+.order-form {
+    height: auto;
+    background: none;
+}
+
+.info li img {
+    top: 12px;
+    width: 30px;
+}
+
+.info li {
+    position: relative;
+    margin-bottom: 0;
+    padding: 10px 0px;
+    padding-left: 50px;
+}
+
+.partners img {
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.contact-item span {
+    margin-bottom: 20px;
+}
+
+.map {
+    height: 300px;
+}
+
+.new-item {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+} 
