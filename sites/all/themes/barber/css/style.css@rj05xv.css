@@ -794,7 +794,7 @@ ul.info {
 
 .school-footer {
     background: #303030;
-    height: 500px;
+    height: auto;
     color: #fff;
 }
 
@@ -907,7 +907,7 @@ a.order-button, .order-button {
 }
 
 .coach-img{
-    height: fit-content;
+    object-fit: cover;
 }
 
 .header {
